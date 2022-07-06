@@ -1,0 +1,6 @@
+/home/decertis/Projects/WebShop/WebShop/bin/Debug/WebShop.exe
+/home/decertis/Projects/WebShop/WebShop/bin/Debug/WebShop.pdb
+/home/decertis/Projects/WebShop/WebShop/obj/x86/Debug/WebShop.csprojAssemblyReference.cache
+/home/decertis/Projects/WebShop/WebShop/obj/x86/Debug/WebShop.csproj.CoreCompileInputs.cache
+/home/decertis/Projects/WebShop/WebShop/obj/x86/Debug/WebShop.exe
+/home/decertis/Projects/WebShop/WebShop/obj/x86/Debug/WebShop.pdb
