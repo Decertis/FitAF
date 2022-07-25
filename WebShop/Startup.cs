@@ -2,6 +2,8 @@
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using WebShop.MVC.Models;
+
 namespace WebShop
 {
     class Startup
@@ -19,11 +21,15 @@ namespace WebShop
             while (true)
             {
                 var _context = listener.GetContext();
+                Console.WriteLine();
+                Console.WriteLine("Request from : " + _context.Request.UserHostAddress);
 
                 Console.WriteLine("Request Url : " + _context.Request.Url);
                 RequestHandler requestHandler = new RequestHandler(_context);
                 Task task = new Task(requestHandler.HandleRequest);
                 task.Start();
+                
+
             }
         }
     }
